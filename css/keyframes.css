@@ -1,0 +1,44 @@
+@keyframes landscape {
+    0% {
+        background-position: -1035px 0;
+    }
+    100% {
+        background-position: 1035px 0; 
+    }
+}
+@-webkit-keyframes landscape {
+    0% {
+        background-position: -1035px 0;
+    }
+    100% {
+        background-position: 1035px 0; 
+    }
+}
+@-webkit-keyframes wheel {
+    0% {-webkit-transform: rotate(0deg);
+    }
+    100% {-webkit-transform: rotate(360deg);
+    }
+}
+@keyframes wheel {
+    0% {transform: rotate(0deg);
+    }
+    100% {transform: rotate(360deg);
+    }
+}
+@keyframes trailer {
+    0% {
+        transform: scaleY(0.95); 
+    }
+    100% {
+        transform: scaleY(1)
+    }
+}
+@-webkit-keyframes trailer {
+    0% {
+        -webkit-transform: scaleY(0.95); 
+    }
+    100% {
+        -webkit-transform: scaleY(1)
+    }
+}
